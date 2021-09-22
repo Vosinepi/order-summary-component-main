@@ -8,34 +8,39 @@
   <link rel='stylesheet' type='text/css' href='style.css'/>
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
     @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
   </style>
 </head>
 <body>
-
 <div  id="card">
-  <a  class="image">
-    <img  src=".\images\illustration-hero.svg" alt="hero" />
-  </a>
+    <img  class="main-image" src="images\illustration-hero.svg" alt="hero" />
+    <div class="summary">
     <h1 class="title">Order Summary</h1>
     <p class="paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!</p
-
-      Annual Plan
-      $59.99/year
-
-      Change
-
-      Proceed to Payment
-      Cancel Order
-</div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+      device anywhere you like!</p>
+    <li class="suscription">
+      <ul class="plan">
+        <ul class="icon">
+          <img src="images\icon-music.svg" alt="icon-music"/>
+        </ul>
+        <ul class="annual-plan">
+          <h4 class="title-suscription">Annual Plan</h4>
+          <p class="price">$59.99/year</p>
+        </ul>
+      </ul>
+      <ul class="change-plan">
+        <h4 class="change"><a href="url">Change</a></h4>
+      </ul>
+    </li>
   </div>
+  <div class="checkout">
+    <a href="url" target="_blank" class="payment">Proceed to Payment</a>
+    <a class="cancel" href="url">Cancel Order</a>
+  </div>
+
+  </div>
+</div>
 </body>
 </html>
